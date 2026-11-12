@@ -1,51 +1,52 @@
 <div align="center">
-  <h1>Merhaba, Ben Zeix (Bydefuse) 👋</h1>
-  <h3>Full-Stack Developer • Otomasyon & Bot Mimarı • Sistem Geliştiricisi</h3>
-  <p>
-    E-ticaret otomasyonları, otonom oyun içi teslimat sistemleri, yüksek performanslı CLI araçları ve modern web arayüzleri geliştiren çok yönlü bir yazılımcıyım. Tekrarlayan iş süreçlerini uçtan uca otonom hale getiren, ölçeklenebilir ve güvenli sistemler tasarlıyorum.
-  </p>
+  
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=26&pause=1000&color=38BDF8&center=true&vCenter=true&width=600&lines=Merhaba,+Ben+Zeix+(Bydefuse)+👋;Full-Stack+Developer+%26+Automation+Architect;Otonom+Bot+ve+E-Ticaret+Sistemleri+Uzmanı" alt="Typing SVG" />
 
   <p>
     <a href="https://discord.com/users/Bydefuse">
-      <img src="https://img.shields.io/badge/Discord-Bydefuse-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" />
+      <img src="https://img.shields.io/badge/Discord-Bydefuse-%235865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" />
     </a>
-    <img src="https://img.shields.io/badge/Freelance-Müsait-success?style=for-the-badge" alt="Status" />
-    <img src="https://img.shields.io/badge/Odak-Otomasyon_%26_Bot_Sistemleri-blueviolet?style=for-the-badge" alt="Focus" />
+    <img src="https://img.shields.io/badge/Status-Freelance%20Projelere%20Müsait-%2310B981?style=for-the-badge&logo=appveyor&logoColor=white" alt="Status" />
+    <img src="https://img.shields.io/badge/Core%20Focus-Automation%20%26%20Bots-%238B5CF6?style=for-the-badge" alt="Focus" />
   </p>
 </div>
 
 ---
 
-### 📊 Geliştirici Performans & Proje Metrikleri
+> **Yazılımcı Notu:** Kod yazarken sadece "çalışmasına" değil; ölçeklenebilirliğine, güvenlik katmanlarına (Proxy/VPN izolasyonu, Captcha bypass) ve mimari temizliğine odaklanırım. Amacım, manuel ve tekrara dayanan tüm iş süreçlerini tamamen otonom hale getiren kusursuz sistemler inşa etmektir.
+
+---
+
+### 📈 Geliştirici Performans ve Analitik Göstergeleri
 
 <div align="center">
 
-| Metrik | Değer | Açıklama |
+| Metrik | Durum / Değer | Teknik Açıklama |
 | :--- | :---: | :--- |
-| 🚀 **Tamamlanan Proje** | **15+** | Başarıyla yayına alınmış anahtar teslim sistem |
-| ⏱️ **Ort. Proje Süresi** | **3 - 7 Gün** | Proje karmaşıklığına göre hızlı ve optimize teslim |
-| 🎯 **Sistem Başarı Oranı** | **%99.8** | Otonom botlarda kesintisiz ve hatasız çalışma |
-| 🔄 **Aktif Geliştirme** | **5 Devam Eden** | Sırada bekleyen yeni nesil otomasyon projeleri |
+| 🚀 **Tamamlanan Sistem** | **15+ Adet** | Uçtan uca test edilmiş, canlıda çalışan anahtar teslim projeler |
+| ⏱️ **Ortalama Teslimat** | **3 - 7 Gün** | Proje karmaşıklığına göre optimize edilmiş hızlı geliştirme döngüsü |
+| 🛡️ **Sistem Kararlılığı** | **%99.8** | Otonom botlarda kesintisiz, ban ve hata riskinden arındırılmış altyapı |
+| 🔄 **Aktif Geliştirme (WIP)** | **5 Proje** | Şu an üzerinde çalışılan yeni nesil otomasyon ve generator yazılımları |
 
 </div>
 
 ---
 
-### 🎚️ Proje Zorluk Dereceleri & Uzmanlık Dağılımı
+### 🎯 Uzmanlık Alanları ve Mimari Zorluk Dereceleri
 
-* **🟢 Düşük / Orta Zorluk (Frontend & Arayüzler):** 
-  * *Örnekler:* FiveM Loading Screen, Statik/Dinamik Tanıtım Sayfaları.
-  * *Teknolojiler:* HTML5, CSS3, JavaScript, LUA.
-* **🟡 Yüksek Zorluk (Web Panelleri & Entegrasyonlar):** 
-  * *Örnekler:* Growtopia & MM2 Otomatik Teslimat Sistemleri, Web Yönetim Panelleri.
-  * *Teknolojiler:* Node.js, PHP, REST API Entegrasyonları, Güvenli Veritabanı Mimarisi.
-* **🔴 İleri Düzey / Uzmanlık (Otonom Botlar & CLI Altyapıları):** 
-  * *Örnekler:* DCTG (Discord Enterprise Bot), Çoklu Hesap Üretim Otomasyonları.
-  * *Teknolojiler:* Python, Multi-Threading, Captcha Çözücü Entegrasyonları, Proxy/VPN İzolasyonu.
+* **🟢 Seviye 1: Arayüz ve Ön Yüz Geliştirme (Orta Zorluk)**
+  * *Faaliyet Alanı:* Dinamik web sunucu arayüzleri, FiveM özel yükleme ekranları.
+  * *Kullanılan Teknolojiler:* `HTML5`, `CSS3`, `JavaScript (ES6+)`, `LUA`.
+* **🟡 Seviye 2: Tam Entegre E-Ticaret & Teslimat Sistemleri (İleri Düzey)**
+  * *Faaliyet Alanı:* Web panelleri ile oyun içi otonom botlar arasındaki anlık haberleşme (API / WebSocket / Veritabanı senkronizasyonu).
+  * *Kullanılan Teknolojiler:* `Node.js`, `PHP`, `JavaScript`, `RESTful API`.
+* **🔴 Seviye 3: Otonom Botlar & CLI Otomasyon Altyapıları (Uzmanlık / Master)**
+  * *Faaliyet Alanı:* Çoklu thread (Multi-threading) desteği, proxy rotasyonu, parmak izi maskeleme ve Captcha çözücü entegrasyonları ile çalışan devasa otomasyon suitleri.
+  * *Kullanılan Teknolojiler:* `Python`, `CLI Architecture`, `External API Integration`.
 
 ---
 
-### 🛠️ Teknoloji Yığını & Yetenekler
+### 🛠️ Teknoloji Yığını (Tech Stack)
 
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
@@ -61,10 +62,9 @@
 
 ### 🚀 Öne Çıkan Tamamlanmış Projeler
 
-#### 1. Growtopia Auto Delivery Bot & Web Panel [Zorluk: 🟡 İleri]
-Growtopia oyun içi eşya ticaretini tamamen otonom hale getiren uçtan uca teslimat ve yönetim platformudur.
-* **Çalışma Mantığı:** Kullanıcı web paneline teslimat kodunu girer; sistem arka plandaki oyun içi botla haberleşerek eşyayı güvenli takas penceresiyle saniyeler içinde teslim eder.
-* **Teknolojiler:** `Node.js`, `JavaScript`, `HTML5`, `CSS3`, `PHP`
+#### 1. Growtopia Oto Teslimat Sistemi & Web Panel *(Zorluk: 🟡 İleri Düzey)*
+* **Sistem Mimarisi:** Growtopia oyununda eşya ticaretini saniyeler içinde, sıfır hata payıyla gerçekleştiren otonom ekosistem. Kullanıcı web paneline sipariş kodunu girer, arka plandaki node.js botu dünyaya girerek güvenli takas penceresiyle teslimatı tamamlar.
+* **Tech Stack:** `Node.js`, `JavaScript`, `HTML5`, `CSS3`, `PHP`
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/bydefuse/bydefuse/main/growtopia-preview.png" alt="Growtopia Oto Teslimat" width="85%" />
@@ -72,10 +72,9 @@ Growtopia oyun içi eşya ticaretini tamamen otonom hale getiren uçtan uca tesl
 
 <br>
 
-#### 2. Murder Mystery 2 (Roblox) Automatic Delivery [Zorluk: 🟡 İleri]
-Roblox MM2 oyunu için geliştirilmiş, 1.300+ aktif kullanıcılı otomatik eşya teslimat ve envanter sistemidir.
-* **Çalışma Mantığı:** Envantere tanımlanan eşyaların talebe göre otonom sunucu botlarıyla hatasız ve anlık transferini sağlar.
-* **Teknolojiler:** `Python`, `Node.js`, `JavaScript`, `HTML5`, `CSS3`
+#### 2. Murder Mystery 2 (Roblox) Automatic Delivery *(Zorluk: 🟡 İleri Düzey)*
+* **Sistem Mimarisi:** 1.300+ aktif kullanıcısı bulunan, Roblox MM2 oyununa entegre edilmiş otomatik eşya dağıtım ve envanter yönetim platformu.
+* **Tech Stack:** `Python`, `Node.js`, `JavaScript`, `HTML5`, `CSS3`
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/bydefuse/bydefuse/main/mm2-preview.png" alt="MM2 Otomatik Teslimat" width="85%" />
@@ -83,10 +82,9 @@ Roblox MM2 oyunu için geliştirilmiş, 1.300+ aktif kullanıcılı otomatik eş
 
 <br>
 
-#### 3. DCTG — Discord Enterprise Account & Token Generator [Zorluk: 🔴 Uzman]
-Yüksek ölçekli otomasyon ve hesap yönetimi için geliştirilmiş CLI tabanlı gelişmiş suite yazılımıdır.
-* **Çalışma Mantığı:** Mullvad VPN ile IP izolasyonu sağlar, 9Captcha entegrasyonuyla doğrulamaları otonom geçer ve insan davranışını taklit eder.
-* **Teknolojiler:** `Python`, `CLI Architecture`, `API Integration`
+#### 3. DCTG — Discord Enterprise Account & Token Generator *(Zorluk: 🔴 Uzman)*
+* **Sistem Mimarisi:** Yüksek hacimli hesap operasyonları için geliştirilmiş CLI tabanlı gelişmiş otomasyon suiti. Mullvad VPN ile IP izolasyonu, 9Captcha API entegrasyonu ve insan davranışı simülasyonuna sahip yazma algoritması barındırır.
+* **Tech Stack:** `Python`, `CLI Architecture`, `Threading`, `API Integration`
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/bydefuse/bydefuse/main/discord-bot-preview.png" alt="DCTG Otomasyon" width="85%" />
@@ -94,9 +92,9 @@ Yüksek ölçekli otomasyon ve hesap yönetimi için geliştirilmiş CLI tabanl�
 
 <br>
 
-#### 4. FiveM Roleplay Custom Loading Screen [Zorluk: 🟢 Orta]
-FiveM sunucuları için tasarlanmış modern, müzik çalarlı ve interaktif yükleme arayüzüdür.
-* **Teknolojiler:** `LUA`, `HTML5`, `CSS3`, `JavaScript`
+#### 4. FiveM Roleplay Custom Loading Screen *(Zorluk: 🟢 Orta Seviye)*
+* **Sistem Mimarisi:** Sunucuya giriş yapan oyuncular için optimize edilmiş; entegre müzik çalar, dinamik medya oynatıcı ve sunucu bilgi paneli barındıran modern yükleme arayüzü.
+* **Tech Stack:** `LUA`, `HTML5`, `CSS3`, `JavaScript`
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/bydefuse/bydefuse/main/fivem-preview.png" alt="FiveM Loading Screen" width="85%" />
@@ -104,18 +102,20 @@ FiveM sunucuları için tasarlanmış modern, müzik çalarlı ve interaktif yü
 
 ---
 
-### ⏳ Aktif Geliştirme Sürecindeki Projeler (WIP)
+### ⏳ Aktif Geliştirme Sürecindeki Projeler (WIP State)
 
-Şu an üzerinde çalıştığım, optimizasyon ve test aşamasında olan yeni nesil projelerim:
+Şu an üzerinde aktif olarak kod yazdığım, mimari testleri devam eden yeni nesil projelerim:
 
-* **🔄 Automatic Gmail Account Generator (CLI):** Tarayıcı parmak izi ve proxy rotasyonu destekli otonom Gmail hesap üretim otomasyonu.
-* **🔄 Microsoft Hotmail & Outlook Generators:** Yüksek hacimli e-posta altyapısı gereksinimleri için Captcha entegrasyonlu botlar.
-* **🔄 Yahoo Mail Account Generator:** Özel istek yapılarıyla çalışan otomatik Yahoo hesap oluşturma yazılımı.
-* **🔄 OwO Cash Automation Bot:** Discord OwO ekonomisi için güvenlik korumalı ve akıllı gecikme algoritmalı bakiye kasma botu.
+* **🔄 Automatic Gmail Account Generator (CLI):** Parmak izi (fingerprint) simülasyonu ve proxy havuzu desteğiyle tam otonom Gmail hesap üretim aracı.
+* **🔄 Microsoft Hotmail & Outlook Account Generators:** Büyük ölçekli e-posta otomasyon ihtiyaçları için captcha çözücü entegreli otonom botlar.
+* **🔄 Yahoo Mail Account Generator:** Özel socket istekleri ve optimize edilmiş istek yapısıyla çalışan hızlı Yahoo hesap üreticisi.
+* **🔄 OwO Cash Automation Bot:** Discord OwO ekonomisi için akıllı gecikme algoritmaları ve ban korumalı yapıya sahip bakiye kasma otomasyonu.
 
 ---
 
-### 📫 İletişim
+### 📫 İletişim & Profesyonel Ağ
+
+Özel otomasyon sistemleri, web panelleri veya bot projeleri için benimle iletişime geçebilirsiniz:
 
 * **Discord:** `Bydefuse`
 * **GitHub:** [@bydefuse](https://github.com/bydefuse)
