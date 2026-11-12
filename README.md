@@ -1,7 +1,8 @@
 <div align="center">
   
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=26&pause=1000&color=38BDF8&center=true&vCenter=true&width=600&lines=Merhaba,+Ben+Zeix+(Bydefuse)+👋;Full-Stack+Developer+%26+Automation+Architect;Otonom+Bot+ve+E-Ticaret+Sistemleri+Uzmanı" alt="Typing SVG" />
-
+  <h1>✨ Merhaba, Ben Zeix (Bydefuse) 👋</h1>
+  <h3>Full-Stack Developer • Automation Architect • Bot Systems Specialist</h3>
+  
   <p>
     <a href="https://discord.com/users/Bydefuse">
       <img src="https://img.shields.io/badge/Discord-Bydefuse-%235865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" />
