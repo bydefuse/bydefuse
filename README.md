@@ -76,7 +76,7 @@
 <br>
 
 #### 2. Murder Mystery 2 (Roblox) Automatic Delivery *(Zorluk: 🟡 İleri Düzey)*
-* **Proje Kapsamı ve Mimari:** Roblox platformunun en popüler oyunlarından biri olan Murder Mystery 2 (MM2) için geliştirilmiş, 1.300+ aktif kullanıcının siparişlerini yöneten otonom eşya dağıtım ve envanter yönetim platformudur.
+* **Proje Kapsamı ve Mimari:** Roblox platformunun en popüler oyunlarından biri olan Murder Mystery 2 (MM2) için geliştirilmiş, kullanıcının siparişlerini yöneten otonom eşya dağıtım ve envanter yönetim platformudur.
 * **Çalışma Akışı:** Oyuncular satın aldıkları envanter öğelerini web paneli üzerinden yönetirler. Teslimat talebi oluşturulduğu anda sistem, kuyruk mantığıyla (Queue System) çalışan arka plan botlarını görevlendirir. Bot, ilgili sunucuya sızarak eşyayı alıcıya hatasız ve gecikmesiz bir şekilde aktarır. Sistem aynı zamanda platform içi çekiliş modülleri ve dinamik stok raporlama araçlarıyla tam entegre çalışır.
 * **Mühendislik Detayları:** Yüksek trafik altında çökmeyen asenkron istek yönetimi, kullanıcı yetkilendirme katmanları ve loglama mekanizması.
 * **Tech Stack:** `Python`, `Node.js`, `JavaScript`, `HTML5`, `CSS3`
