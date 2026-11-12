@@ -64,7 +64,9 @@
 ### 🚀 Öne Çıkan Tamamlanmış Projeler
 
 #### 1. Growtopia Oto Teslimat Sistemi & Web Panel *(Zorluk: 🟡 İleri Düzey)*
-* **Sistem Mimarisi:** Growtopia oyununda eşya ticaretini saniyeler içinde, sıfır hata payıyla gerçekleştiren otonom ekosistem. Kullanıcı web paneline sipariş kodunu girer, arka plandaki node.js botu dünyaya girerek güvenli takas penceresiyle teslimatı tamamlar.
+* **Proje Kapsamı ve Mimari:** Growtopia oyun içi ekonomisinde yüksek hacimli eşya (BGL, DL vb.) ticaretini tamamen otonom hale getiren kurumsal bir e-ticaret ve teslimat ekosistemidir. 
+* **Çalışma Akışı:** Kullanıcı e-ticaret platformundan veya web panelinden alışveriş yaptığında sisteme benzersiz bir teslimat kodu üretilir. Kullanıcı bu kodu web arayüzüne girdiğinde, arka planda 7/24 kesintisiz çalışan Node.js tabanlı oyun içi bot tetiklenir. Bot, hedef dünyaya (`world`) otonom olarak bağlanır; eşyanın yere atılmasından kaynaklı kayıp veya dolandırıcılık riskini tamamen ortadan kaldıran güvenli takas (`trade`) penceresi üzerinden saniyeler içinde teslimatı tamamlar.
+* **Mühendislik Detayları:** Veritabanı senkronizasyonu, anlık stok takibi, webhook bildirimleri ve hata toleranslı (fault-tolerant) yeniden bağlanma mekanizmalarıyla donatılmıştır.
 * **Tech Stack:** `Node.js`, `JavaScript`, `HTML5`, `CSS3`, `PHP`
 
 <div align="center">
@@ -74,7 +76,9 @@
 <br>
 
 #### 2. Murder Mystery 2 (Roblox) Automatic Delivery *(Zorluk: 🟡 İleri Düzey)*
-* **Sistem Mimarisi:** 1.300+ aktif kullanıcısı bulunan, Roblox MM2 oyununa entegre edilmiş otomatik eşya dağıtım ve envanter yönetim platformu.
+* **Proje Kapsamı ve Mimari:** Roblox platformunun en popüler oyunlarından biri olan Murder Mystery 2 (MM2) için geliştirilmiş, 1.300+ aktif kullanıcının siparişlerini yöneten otonom eşya dağıtım ve envanter yönetim platformudur.
+* **Çalışma Akışı:** Oyuncular satın aldıkları envanter öğelerini web paneli üzerinden yönetirler. Teslimat talebi oluşturulduğu anda sistem, kuyruk mantığıyla (Queue System) çalışan arka plan botlarını görevlendirir. Bot, ilgili sunucuya sızarak eşyayı alıcıya hatasız ve gecikmesiz bir şekilde aktarır. Sistem aynı zamanda platform içi çekiliş modülleri ve dinamik stok raporlama araçlarıyla tam entegre çalışır.
+* **Mühendislik Detayları:** Yüksek trafik altında çökmeyen asenkron istek yönetimi, kullanıcı yetkilendirme katmanları ve loglama mekanizması.
 * **Tech Stack:** `Python`, `Node.js`, `JavaScript`, `HTML5`, `CSS3`
 
 <div align="center">
@@ -84,7 +88,9 @@
 <br>
 
 #### 3. DCTG — Discord Enterprise Account & Token Generator *(Zorluk: 🔴 Uzman)*
-* **Sistem Mimarisi:** Yüksek hacimli hesap operasyonları için geliştirilmiş CLI tabanlı gelişmiş otomasyon suiti. Mullvad VPN ile IP izolasyonu, 9Captcha API entegrasyonu ve insan davranışı simülasyonuna sahip yazma algoritması barındırır.
+* **Proje Kapsamı ve Mimari:** Yüksek ölçekli hesap operasyonları ve kurumsal otomasyon ihtiyaçları için sıfırdan tasarlanmış, gelişmiş konfigürasyon ve ağ yönetimine sahip CLI (Komut Satırı) tabanlı otomasyon suitidir.
+* **Çalışma Akışı:** Sistem; Mullvad VPN entegrasyonu sayesinde her işlemde IP izolasyonu ve temizliği sağlar. Karşılaşılan bot korumalarını ve doğrulama duvarlarını aşmak için 9Captcha API servislerini dinamik olarak tetikler. İnsan davranışını birebir taklit eden, rastgele gecikme sürelerine (human-like typing delay) sahip yazma algoritmalarıyla hesap ve token üretim süreçlerini otonom olarak yönetir.
+* **Mühendislik Detayları:** Multi-threading (Çoklu iş parçacığı) desteği, modüler profil yönetimi, otomatik hata yakalama ve anlık bakiye/stok sorgulama konsolu.
 * **Tech Stack:** `Python`, `CLI Architecture`, `Threading`, `API Integration`
 
 <div align="center">
@@ -94,7 +100,9 @@
 <br>
 
 #### 4. FiveM Roleplay Custom Loading Screen *(Zorluk: 🟢 Orta Seviye)*
-* **Sistem Mimarisi:** Sunucuya giriş yapan oyuncular için optimize edilmiş; entegre müzik çalar, dinamik medya oynatıcı ve sunucu bilgi paneli barındıran modern yükleme arayüzü.
+* **Proje Kapsamı ve Mimari:** FiveM roleplay sunucularına bağlanan oyunculara akıcı, modern ve etkileşimli bir karşılama deneyimi sunan özel web tabanlı yükleme arayüzüdür.
+* **Çalışma Akışı:** Oyuncu sunucu dosyalarını indirip yüklerken arayüz, arka planda optimize edilmiş dinamik video akışı veya görseller sunar. Entegre müzik çalar (ses açma/kapama ve parça değiştirme özellikleri ile) oyuncunun bekleme süresini keyifli hale getirir. Sunucu kuralları, sosyal medya bağlantıları ve yönetim kadrosu bilgileri arayüz üzerinden dinamik olarak güncellenir.
+* **Mühendislik Detayları:** Düşük kaynak tüketimi (low resource overhead), optimize edilmiş DOM manipülasyonu ve akıcı CSS animasyonları.
 * **Tech Stack:** `LUA`, `HTML5`, `CSS3`, `JavaScript`
 
 <div align="center">
@@ -105,12 +113,12 @@
 
 ### ⏳ Aktif Geliştirme Sürecindeki Projeler (WIP State)
 
-Şu an üzerinde aktif olarak kod yazdığım, mimari testleri devam eden yeni nesil projelerim:
+Şu an üzerinde aktif olarak kod yazdığım, mimari testleri ve optimizasyon süreçleri devam eden yeni nesil projelerim:
 
-* **🔄 Automatic Gmail Account Generator (CLI):** Parmak izi (fingerprint) simülasyonu ve proxy havuzu desteğiyle tam otonom Gmail hesap üretim aracı.
-* **🔄 Microsoft Hotmail & Outlook Account Generators:** Büyük ölçekli e-posta otomasyon ihtiyaçları için captcha çözücü entegreli otonom botlar.
-* **🔄 Yahoo Mail Account Generator:** Özel socket istekleri ve optimize edilmiş istek yapısıyla çalışan hızlı Yahoo hesap üreticisi.
-* **🔄 OwO Cash Automation Bot:** Discord OwO ekonomisi için akıllı gecikme algoritmaları ve ban korumalı yapıya sahip bakiye kasma otomasyonu.
+* **🔄 Automatic Gmail Account Generator (CLI):** Tarayıcı parmak izi (browser fingerprinting) simülasyonu, çerez yönetimi ve proxy havuzu rotasyonu ile tamamen otonom çalışan kurumsal Gmail hesap üretim aracı.
+* **🔄 Microsoft Hotmail & Outlook Account Generators:** Yüksek hacimli e-posta otomasyon gereksinimleri için geliştirilen, Captcha çözücü entegreli ve ban korumalı otonom e-posta üretim botları.
+* **🔄 Yahoo Mail Account Generator:** Ham socket istekleri ve optimize edilmiş HTTP header yapılarıyla saniyeler içinde binlerce hesap üretebilen yüksek performanslı Yahoo otomasyonu.
+* **🔄 OwO Cash Automation Bot:** Discord üzerindeki OwO ekonomi botu için geliştirilen; yapay zeka tabanlı akıllı gecikme algoritmaları, anti-ban güvenlik katmanları ve kesintisiz çalışma mantığına sahip bakiye kasma otomasyonu.
 
 ---
 
